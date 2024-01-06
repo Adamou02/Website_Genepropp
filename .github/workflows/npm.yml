@@ -8,7 +8,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./genealogic-tree-front
+    working-directory: /home/runner/work/Website_Genepropp/Website_Genepropp/genealogic-tree-front
 
 jobs:
 
