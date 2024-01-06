@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        working-directory: ./genealogic-tree-front
+        run: cd ./genealogic-tree-front
     - name: Run npm test
       run: |
         cd ./genealogic-tree-front
@@ -46,7 +46,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        working-directory: ./genealogic-tree-front
+        run: cd ./genealogic-tree-front
     - name: Run npm test
       run: |
         cd ./genealogic-tree-front
