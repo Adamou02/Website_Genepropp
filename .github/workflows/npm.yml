@@ -17,8 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: cd genealogic-tree-front
-    - run: pwd
+    - run: cd genealogic-tree-front && pwd
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -38,8 +37,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: cd genealogic-tree-front
-    - run: pwd
+    - run: cd genealogic-tree-front && pwd
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
