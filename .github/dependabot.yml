@@ -8,6 +8,10 @@ updates:
       - "npm dependencies"
     reviewers:
       - "Adamou02"
+    groups:
+      angular:
+        patterns:
+        - "@angular*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
