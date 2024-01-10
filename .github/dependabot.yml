@@ -3,9 +3,12 @@ updates:
   - package-ecosystem: "npm"
     directory: "/genealogic-tree-front"
     schedule:
-      interval: "weekly"
-    labels: 
+      interval: "daily"
+    labels:
       - "npm dependencies"
+    create-approval: true
+    reviewers:
+      - "Adamou02"
 
   - package-ecosystem: "github-actions"
     directory: "/"
