@@ -6,7 +6,6 @@ updates:
       interval: "daily"
     labels:
       - "npm dependencies"
-    create-approval: true
     reviewers:
       - "Adamou02"
 
