@@ -1,4 +1,4 @@
-# Genepropp
+# [ARCHIVE] Genepropp
 
 
 This website lets you generate and view family trees. Each user can add members to his or her tree. A written chat system allows users to exchange information, validate users in their tree, etc...
